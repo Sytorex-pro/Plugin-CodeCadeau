@@ -1,37 +1,28 @@
 {
    "name":"Code Cadeau",
    "author":"EmpireDev",
-   "version":"1.3.6",
+   "version":"1.3.7",
    "admin_menus": {
-    "GLOBAL__ADMIN_PLUGINS": {
-      "Code Cadeau":{
-         "index":1,
-         "icon":"cog",
-         "menu":{
-            "Gérer les codes":{
-               "icon":"ticket",
-               "route":"/admin/code"
+        "GLOBAL__ADMIN_PLUGINS": {
+            "Code Cadeau":{
+                "index":1,
+                "icon":"fas fa-ticket-alt",
+                "route":"/admin/code"
             }
-         }
-      }
-	 }
-   },
-   "navbar_routes":{
-      "Code Cadeau":"/code"
-   },
-   "useEvents":false,
-   "permissions":{
-      "available":[],
-      "default":{
-         "0":[
-
-         ],
-         "2":[
-
-         ]
-      }
-   },
-   "requirements":{
-      "CMS":"^1.2.0"
-   }
+        }
+    },
+    "navbar_routes":{
+        "Code Cadeau":"/code"
+    },
+    "useEvents":false,
+    "permissions":{
+        "available":[],
+        "default":{
+            "0":[],
+            "2":[]
+        }
+    },
+    "requirements":{
+        "CMS":"^1.11.0"
+    }
 }
